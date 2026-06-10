@@ -8,7 +8,6 @@
 # - DƯƠNG: templates/host.html, templates/play.html (riêng)
 # ===================================================================
 
-
 from flask import Flask, render_template, request, jsonify
 from werkzeug.exceptions import HTTPException
 import random
