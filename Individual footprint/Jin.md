@@ -62,7 +62,7 @@
 
 
 ## <a name="_z74kdjhgxx2r"></a><a name="_toc232080508"></a>**1. Vai trò trong dự án**
-Fun(d) Raising là một trò chơi mô phỏng gây quỹ khởi nghiệp dành cho nhiều người chơi (từ 2 đến 10 người). Mỗi người chơi xây dựng một dự án khởi nghiệp với các chỉ số tài chính, chọn bộ bài chiến lược (gồm thẻ tấn công, phòng thủ và thẻ phản ứng), rồi trải qua nhiều vòng (phase) dưới sự tác động của các sự kiện ngẫu nhiên và quyết định đầu tư của 200 bot nhà đầu tư với bốn loại tính cách khác nhau. Người dẫn trò (host) điều khiển nhịp độ trò chơi. Mục tiêu cuối cùng là đạt được số điểm cao nhất dựa trên tiến độ gọi vốn, tốc độ, ROI kỳ vọng và mức độ minh bạch.
+Fun(d) Raising là một trò chơi mô phỏng gây quỹ khởi nghiệp dành cho nhiều người chơi (từ 2 đến 10 người). Mỗi người chơi xây dựng một dự án khởi nghiệp với các chỉ số tài chính, chọn bộ bài chiến lược (gồm thẻ Active, Defensive, Capital và thẻ Reaction), rồi trải qua nhiều vòng (phase) dưới sự tác động của các sự kiện ngẫu nhiên và quyết định đầu tư của 200 bot nhà đầu tư với bốn loại tính cách khác nhau. Người dẫn trò (host) điều khiển nhịp độ trò chơi. Mục tiêu cuối cùng là đạt được số điểm cao nhất dựa trên tiến độ gọi vốn, tốc độ, ROI kỳ vọng và mức độ minh bạch.
 
 Trong dự án này, tôi đảm nhận hai trách nhiệm lớn:
 
