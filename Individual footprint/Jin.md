@@ -53,6 +53,8 @@
 
 [Thách thức 2: Phối hợp bốn phong cách lập trình khác nhau	19](#_toc232080522)
 
+[Thách thức 3: Dùng AI để debug: một con dao hai lưỡi	19](#_toc232080525)
+
 [9. Lời nhắn nhủ dành cho các sinh viên tương lai	20](#_toc232080523)
 
 [10. Kết luận	20](#_toc232080524)
@@ -213,7 +215,8 @@ Về mặt kỹ thuật, tôi đã hiểu sâu hơn về vòng đời yêu cầu
 ### <a name="_qqghfn8yg18v"></a><a name="_toc232080522"></a>**Thách thức 2: Phối hợp bốn phong cách lập trình khác nhau**
 Mỗi thành viên đều có quy ước đặt tên, giả định dữ liệu và thói quen xử lý lỗi riêng. Các hàm đo lường của Phuc trả về các số liệu chính xác. Các hàm bot của Khanh sửa đổi danh sách người chơi tại chỗ và trả về None. Giao diện người dùng của Duong yêu cầu các tên trường JSON rất cụ thể. Việc làm cho tất cả chúng giao tiếp với nhau mà không cần viết lại công việc của bất kỳ ai là một quá trình thương lượng liên tục. Giải pháp của tôi là coi lớp API của mình như lớp dịch thuật: Tôi điều chỉnh dữ liệu đầu vào để phù hợp với những gì mỗi mô-đun mong đợi, và điều chỉnh đầu ra của mỗi mô-đun để phù hợp với những gì giao diện người dùng sử dụng. Điều này có nghĩa là các điểm cuối của tôi đôi khi dài dòng hơn mức cần thiết, nhưng trò chơi vẫn hoạt động.
 
-**Thách thức 3: Dùng AI để debug: một con dao hai lưỡi**
+
+### <a name="_qqghfn8yg18v"></a><a name="_toc232080525"></a>**Thách thức 3: Dùng AI để debug: một con dao hai lưỡi**
 
 Tôi đã dùng ChatGPT, DeepSeek, Claude, Gemini rất nhiều. Mỗi lần gặp lỗi, tôi lại copy code vào hỏi. Có những lúc AI giúp tôi nhanh chóng tìm ra lỗi cú pháp. Nhưng có những lúc nó làm tôi điên tiết: nó "ăn mất code" – nghĩa là nó đưa ra giải pháp nhưng lại bỏ qua một phần quan trọng, hoặc viết lại toàn bộ hàm của tôi thành một thứ khác, làm tôi mất cả buổi tối để phục hồi. Thậm chí có lần tôi hỏi tại sao lỗi KeyError xảy ra, ChatGPT trả lời chung chung "hãy kiểm tra khóa", trong khi tôi đã kiểm tra cả trăm lần. Mãi sau tôi mới tự mò ra: do JSON biến số thành chuỗi.
 
