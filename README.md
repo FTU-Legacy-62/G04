@@ -33,7 +33,7 @@ Sản phẩm giải quyết vấn đề đó bằng cách cung cấp mô phỏng
 - **Mô phỏng nhiều người chơi với host điều khiển:** Host tạo phòng (2–10 người), điều khiển tiến trình vòng chơi, theo dõi tất cả người chơi theo thời gian thực qua bảng điều khiển riêng.
 - **Hệ sinh thái bot nhà đầu tư AI:** 200 bot với 4 kiểu hành vi riêng biệt (FOMO, Value Hunter, Whale, Random) tự động đầu tư hoặc rút vốn dựa trên chỉ số tài chính và điểm hấp dẫn của từng dự án.
 - **Mô phỏng tài chính động theo từng vòng:** Mỗi vòng, một sự kiện ngẫu nhiên được áp dụng (24 tình huống). Người chơi dùng năng lượng (3/vòng) để chơi thẻ chủ động, kích hoạt thẻ phản ứng khi đủ điều kiện. Hệ thống tính lại các chỉ số: Giá trị nội tại, độ hợp lý định giá, chỉ số ROI chuẩn hóa, thời gian vận hành, tiến độ gọi vốn.
-- **Hệ thống thẻ bài chiến lược kết hợp sự kiện ngẫu nhiên:** Mỗi vòng, người chơi rút thẻ chủ động (từ bộ 22 thẻ tự thiết kế) và phản ứng với sự kiện thị trường, pháp lý, nội bộ hoặc bên ngoài; thẻ phản ứng có thể được kích hoạt tự động trong các tình huống khủng hoảng cụ thể.
+- **Hệ thống thẻ bài chiến lược kết hợp sự kiện ngẫu nhiên:** Mỗi vòng, người chơi chơi thẻ Active (từ bộ 22 thẻ tự lựa chọn trước đấy) và phản ứng với sự kiện thị trường, pháp lý, nội bộ hoặc bên ngoài; thẻ Reaction có thể được chơi trong các tình huống khủng hoảng cụ thể.
 - **Bảng xếp hạng theo quy mô và tổng thể:** Host có thể xem tiến độ thời gian thực, chỉ số hype, minh bạch và điểm của tất cả người chơi. Game tự động kết thúc khi tất cả dự án hoàn thành số vòng hoặc phá sản, hiển thị điểm cuối cùng (0–100) để xác định người thắng cuộc.
 
 ## Cách mở hoặc chạy sản phẩm
