@@ -16,9 +16,6 @@
 | :-: | :-: | :-: |
 |**Kim Hye Jin**|2312380803|Team Leader · API Architect · System Integrator|
 
-\
-\
-
 
 **Individual Footprint of Jin**
 
@@ -57,6 +54,8 @@
 [Thách thức 2: Phối hợp bốn phong cách lập trình khác nhau	19](#_toc232080522)
 
 [9. Lời nhắn nhủ dành cho các sinh viên tương lai	20](#_toc232080523)
+
+[10. Kết luận	20](#_toc232080524)
 
 
 
@@ -227,7 +226,7 @@ Vì là mọi người cùng code một lúc nên phải LUÔN LƯU lại bản 
 
 Cố gắng lên hỏi ý kiến của instructor thật nhiều bởi càng nhiều góc nhìn thì sản phẩm của mình càng hoàn thiện, đặc biệt là góc nhìn của người có kinh nghiệm luôn đưa ra những lời khuyên đáng ghi chép.
 
-**10. Kết luận** 
+## <a name="_z74kdjhgxx2r"></a><a name="_toc232080524"></a>**10. Kết luận** 
 
 Fun(d) Raising không chỉ là một yêu cầu của môn học mà còn là một hành trình trưởng thành của tôi. Tôi bắt đầu với rất ít kinh nghiệm lập trình, nhưng dần học được cách thiết kế hệ thống, tích hợp các mô-đun, dẫn dắt một nhóm và giải quyết những vấn đề kỹ thuật thực tế.
 
