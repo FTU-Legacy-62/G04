@@ -39,10 +39,10 @@ Sản phẩm giải quyết vấn đề đó bằng cách cung cấp mô phỏng
 ## Cách mở hoặc chạy sản phẩm
 
 1. Mở link game: [https://g04-sh5t.onrender.com/](https://g04-sh5t.onrender.com/)
-2. Host nhấn **"Create Room"** để tạo phiên chơi và nhận các link tham gia riêng cho mỗi người chơi.
+2. Host  nhập số người chơi và nhấn **"Create Room"** để tạo phiên chơi rồi nhận các link tham gia riêng cho mỗi người chơi.
 3. Mỗi người chơi mở link riêng của mình và điền các thông số tài chính cho startup.
 4. Mỗi người chơi xây dựng bộ bài: chọn đúng 22 thẻ chủ động và tối đa 3 thẻ phản ứng.
-5. Khi tất cả sẵn sàng, host nhấn **"Start Game"** để bắt đầu Vòng 1.
-6. Mỗi vòng: một sự kiện ngẫu nhiên được kích hoạt → người chơi rút 5 thẻ và dùng năng lượng để chơi bài → host nhấn **"Run Phase"** → bot đầu tư hoặc rút vốn → các chỉ số cập nhật trên bảng xếp hạng.
+5. Khi tất cả sẵn sàng, host nhấn **"Run phase"** để bắt đầu Vòng 1.
+6. Mỗi vòng: một sự kiện ngẫu nhiên được kích hoạt → người chơi rút 5 thẻ và dùng năng lượng để chơi bài (tối đa 3 năng lượng) → host nhấn **"Run Phase"** → bot đầu tư hoặc rút vốn → các chỉ số cập nhật trên bảng xếp hạng.
 7. Lặp lại đủ số vòng tương ứng với quy mô dự án (Nhỏ: 5, Trung bình: 7, Lớn: 9).
 8. Sau vòng cuối cùng, xem bảng xếp hạng và điểm số (0–100) để xác định người chiến thắng.
