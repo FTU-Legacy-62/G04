@@ -41,7 +41,7 @@ Dự án **FUN(D) RAISING** không chỉ là một trò chơi mô phỏng; mà l
 | **Slogan** | "When you have fund you have fun" |
 | **Mã nhóm** | G04 |
 | **Kho lưu trữ** | [Link GitHub G04](https://github.com/FTU-Legacy-62/G04) |
-| **Link demo** | Thông tin này sẽ được cập nhật sau khi bài tập cuối cùng được nộp. |
+| **Link demo** | https://nhap-fintech-5c8n.onrender.com |
 | **Lớp học** | NHA408E(2526-2)GD2.01 |
 | **Instructor** | Assoc. Prof. Dr. Phan Tran Trung Dung |
 
