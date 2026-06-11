@@ -38,7 +38,7 @@ The product solves this by providing an interactive simulation where users can i
 
 ## How to Open or Run the Product
 
-1. Open the link game: https://fun-d-rasing-5exy.onrender.com
+1. Open the link game: https://g04-sh5t.onrender.com/
 2. The host clicks "Create Room" to generate a game session and unique join links for each player.
 3. Each player opens their unique join link and fills in their startup's financial profile.
 4. Each player builds their deck: select exactly 22 active cards and up to 3 reaction cards.
