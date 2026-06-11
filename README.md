@@ -14,7 +14,7 @@
 
 ## Mô tả ngắn gọn sản phẩm
 
-**Fun(d) Raising** là game web mô phỏng gọi vốn khởi nghiệp dành cho 2–10 người chơi. Mỗi người tự xây dựng dự án của mình (chọn quy mô, định giá, cơ cấu vốn, dự báo doanh thu), thiết kế bộ bài gồm 22 thẻ chủ động và tối đa 3 thẻ phản ứng. Qua nhiều vòng (5–9 vòng tuỳ theo quy mô), người chơi đối mặt với các sự kiện ngẫu nhiên (thị trường, nội bộ, pháp lý) và ra quyết định chơi bài để thu hút vốn từ 200 bot nhà đầu tư AI (FOMO, Value Hunter, Whale, Random). Người điều khiển (host) quản lý nhịp độ trận đấu, hệ thống tự động tính điểm cuối cùng dựa trên tiến độ gọi vốn, tốc độ, ROI và minh bạch – người có điểm cao nhất sẽ thắng.
+**Fun(d) Raising** là game web mô phỏng gọi vốn khởi nghiệp dành cho 2–10 người chơi. Mỗi người tự xây dựng dự án của mình (chọn quy mô, định giá, cơ cấu vốn, dự báo doanh thu), thiết kế bộ bài gồm 42 thẻ Active và tối đa 7 thẻ Reaction (người chơi phải chọn 22 thẻ Active và tối đa 3 thẻ Reaction). Qua nhiều vòng (5–9 vòng tuỳ theo quy mô), người chơi đối mặt với các sự kiện ngẫu nhiên (thị trường, nội bộ, pháp lý) và ra quyết định chơi bài để thu hút vốn từ 200 bot nhà đầu tư AI (FOMO, Value Hunter, Whale, Random). Người điều khiển (host) quản lý nhịp độ trận đấu, hệ thống tự động tính điểm cuối cùng dựa trên tiến độ gọi vốn, tốc độ, ROI và minh bạch – người có điểm cao nhất sẽ thắng.
 
 ## Vấn đề mà sản phẩm giải quyết
 
