@@ -167,7 +167,7 @@ Trong dự án này, tôi không chỉ viết toàn bộ backend Flask mà còn 
 |**STT**|**Kịch bản kiểm thử**|**Kết quả mong đợi**|**Kết quả thực tế**|
 | :-: | :-: | :-: | :-: |
 |1|Tạo phòng 2 người, submit project + deck, host run phase → game bắt đầu phase 1|Mỗi người có 5 lá bài, sự kiện ngẫu nhiên xuất hiện từng phase|Đạt|
-|2|Một người chơi chưa submit deck, host run phase → báo lỗi "Players X chưa submit deck" (Phúc đảm nhận)|Thông báo lỗi rõ ràng|Đạt|
+|2|Một người chơi chưa submit deck, host run phase → báo lỗi "Players X chưa submit deck"|Thông báo lỗi rõ ràng|Đạt|
 |3|Người chơi chơi một thẻ (play\_card) → giảm energy, thẻ biến mất khỏi hand, sau run phase hiệu ứng được áp dụng|Energy giảm, thẻ biến mất, chỉ số hype/transparency thay đổi|Đạt|
 |4|Người chơi dùng Mulligan → energy giảm, hand mới (5 lá random)|<p>Nếu người chơi dùng 2 lần Mulligan 1 phase => báo lỗi</p><p>Nếu không đủ 1 energy mà dùng Mulligan => báo lỗi</p>|Đạt|
 |5|Một dự án có available\_cash xuống 0 → bị đánh dấu bankrupt, không tham gia phase sau|Log "PHÁ SẢN", dự án biến mất khỏi vòng chơi|Đạt|
