@@ -1,0 +1,4 @@
+echo "python-3.12.9" > runtime.txt
+git add runtime.txt
+git commit -m "Pin Python version"
+git push
