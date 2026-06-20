@@ -1,4 +1,4 @@
-# Brach này bị lỗi, hãy đọc trong brach "Fix_blanks"
+# Branch này bị lỗi, hãy đọc trong branch "Fix_blanks"
 
 **Group Code:** G04
 
