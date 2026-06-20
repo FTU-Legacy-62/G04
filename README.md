@@ -1,4 +1,4 @@
-# Fun(d) Raising
+# Branh này bị lỗi, hãy đọc trong branh "Fix_branch"
 
 **Group Code:** G04
 
