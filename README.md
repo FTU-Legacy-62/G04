@@ -38,7 +38,7 @@ Sản phẩm giải quyết vấn đề đó bằng cách cung cấp mô phỏng
 
 ## Cách mở hoặc chạy sản phẩm
 
-1. Mở link game: [https://g04-sh5t.onrender.com/](https://g04-sh5t.onrender.com/)
+1. Mở link game: https://g04-fun-d-rasing.onrender.com
 2. Host  nhập số người chơi và nhấn **"Create Room"** để tạo phiên chơi rồi nhận các link tham gia riêng cho mỗi người chơi.
 3. Mỗi người chơi mở link riêng của mình và điền các thông số tài chính cho startup.
 4. Mỗi người chơi xây dựng bộ bài: chọn đúng 22 thẻ chủ động và tối đa 3 thẻ phản ứng.
