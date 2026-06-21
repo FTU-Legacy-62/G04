@@ -97,9 +97,9 @@ Trong dự án này, tôi không chỉ viết toàn bộ backend Flask mà còn 
 |Hàm tiện ích chuẩn hóa|Viết 8 hàm xử lý lỗi JSON, chuẩn hóa cấu trúc phòng, gộp hành động bot, khởi tạo game, đánh giá điều kiện reaction.|
 |Kết nối module Minh|Tích hợp dữ liệu thẻ (ACTIVE\_CARDS\_FULL, REACTION\_CARDS), kịch bản (SCENARIOS), hàm vẽ bài (draw\_hand\_no\_duplicate\_color\_cost) vào API.|
 |Kết nối module Phúc|Gọi calculate\_metrics và final\_score trong các API trạng thái và run\_phase để tính chỉ số, điểm số.|
-|Kết nối module Khánh|Gọi process\_phase trong run\_phase, cung cấp hàm get\_bot\_memory để Khánh sử dụng.|
+|Kết nối module Khanh|Gọi process\_phase trong run\_phase, cung cấp hàm get\_bot\_memory để Khanh sử dụng.|
 |Kết nối giao diện Dương|Trả về template host.html, play.html và định dạng JSON phù hợp với frontend.|
-|Kết nối chéo giữa các module|Thực hiện chuỗi xử lý trong run\_phase (Minh → Phúc → Khánh → Minh), viết evaluate\_condition dùng chung dữ liệu Minh và metrics Phúc.|
+|Kết nối chéo giữa các module|Thực hiện chuỗi xử lý trong run\_phase (Minh → Phúc → Khanh → Minh), viết evaluate\_condition dùng chung dữ liệu Minh và metrics Phúc.|
 |Xử lý lỗi toàn cục|Bắt mọi ngoại lệ, trả về JSON lỗi thay vì stack trace HTML.|
 |Tester|Kiểm thử thủ công toàn bộ luồng, chụp ảnh màn hình demo.|
 
@@ -159,10 +159,10 @@ Trong dự án này, tôi không chỉ viết toàn bộ backend Flask mà còn 
 | :-: | :-: | :-: |
 |Minh → API|Minh|<p>proj['active\_deck'] = [ACTIVE\_CARDS\_FULL[i] for i in active\_indices] trong submit\_deck</p><p>scenario = random.choice(SCENARIOS) trong run\_phase</p><p>p['current\_hand'] = draw\_hand\_no\_duplicate\_color\_cost(p['active\_deck'],5) trong try\_start\_game và run\_phase</p>|
 |Phúc → API|Phúc|<p>metrics = calculate\_metrics(proj) trong player\_state, host\_state, run\_phase</p><p>score = final\_score(proj, max\_phase, metrics) trong player\_state, host\_state</p>|
-|Khánh → API|Khánh|bot\_actions = []; process\_phase(room, phase, players, logs, bot\_actions) trong run\_phase|
-|Khánh ← get\_bot\_memory|Gameplay|get\_bot\_memory(room, bot\_id, player\_count) – do thành viên này viết, Khánh gọi trong process\_phase|
+|Khanh → API|Khanh|bot\_actions = []; process\_phase(room, phase, players, logs, bot\_actions) trong run\_phase|
+|Khanh ← get\_bot\_memory|Gameplay|get\_bot\_memory(room, bot\_id, player\_count) – do thành viên này viết, Khanh gọi trong process\_phase|
 |Dương → API|Backend|Route / và /play/... trả về host.html, play.html; các API trả JSON đúng cấu trúc (ví dụ rankings có name, funding, hype, score, deck\_ready)|
-|Chuỗi Minh – Phúc – Khánh – Minh|Cả ba|Trong run\_phase: 1) Áp dụng SCENARIOS (Minh); 2) Áp dụng pending\_cards (Minh); 3) Gọi calculate\_metrics (Phúc); 4) Kiểm tra reaction (Minh + Phúc qua evaluate\_condition); 5) Gọi process\_phase (Khánh); 6) Gọi draw\_hand\_no\_duplicate\_color\_cost (Minh)|
+|Chuỗi Minh – Phúc – Khanh – Minh|Cả ba|Trong run\_phase: 1) Áp dụng SCENARIOS (Minh); 2) Áp dụng pending\_cards (Minh); 3) Gọi calculate\_metrics (Phúc); 4) Kiểm tra reaction (Minh + Phúc qua evaluate\_condition); 5) Gọi process\_phase (Khanh); 6) Gọi draw\_hand\_no\_duplicate\_color\_cost (Minh)|
 ###
 ### <a name="_ct5255pgxe84"></a><a name="_30ia8uyqj0js"></a><a name="_toc232080516"></a>**4.5. Kiểm thử**
 
@@ -191,7 +191,7 @@ Trong dự án này, tôi không chỉ viết toàn bộ backend Flask mà còn 
 - Hàm ensure\_room\_lists và ensure\_bot\_alloc – hai hàm này không có trong bất kỳ tài liệu thiết kế ban đầu nào; tôi đã thêm chúng sau khi phát hiện lỗi trong quá trình tích hợp. Chúng là "patches" độc đáo của riêng tôi.
 - Nhật ký commit Github: [https://github.com/khanhhabao7/nhap-fintech/commits/main/app.py?author=kimhyejinhq-crypto&before=fd822f613c203bda71eef3323ef29e99dbb58ce4+](https://github.com/khanhhabao7/nhap-fintech/commits/main/app.py?author=kimhyejinhq-crypto&before=fd822f613c203bda71eef3323ef29e99dbb58ce4+35)
 ## <a name="_toc232080518"></a>**6. Công việc của tôi liên quan như thế nào đến sản phẩm cuối cùng?**
-Nếu ví trò chơi như một cơ thể sống, thì các module của Minh, Phúc, Khánh, Dương là các cơ quan (tim, phổi, não, tay chân). Công việc của tôi là hệ thần kinh – kết nối tất cả, truyền tín hiệu, đảm bảo mọi bộ phận phối hợp nhịp nhàng. Cụ thể:
+Nếu ví trò chơi như một cơ thể sống, thì các module của Minh, Phúc, Khanh, Dương là các cơ quan (tim, phổi, não, tay chân). Công việc của tôi là hệ thần kinh – kết nối tất cả, truyền tín hiệu, đảm bảo mọi bộ phận phối hợp nhịp nhàng. Cụ thể:
 
 - Mọi cú nhấp chuột từ trình duyệt (gửi dự án, chọn bài, chơi bài, ready, dùng reaction) đều gửi request đến một API do tôi viết. Nếu các API đó sai hoặc thiếu, frontend sẽ không thể giao tiếp với backend.
 - Dữ liệu trạng thái (tiến độ funding, điểm tin cậy, hand bài, năng lượng) được lưu trữ và phục hồi nhờ SqliteRoomManager. Nhờ đó, người chơi không bị mất tiến trình khi máy chủ khởi động lại – một yêu cầu quan trọng từ giảng viên.
